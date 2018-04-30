@@ -1,0 +1,118 @@
+/*
+Theme Name: Lisber二次元主题
+Theme URI: https://www.tefws.cn
+Description: Lisber主题是一个二次元主题，拥有二次元风格的页面，双栏样式和魔幻般的配色让您欲罢不能，是作为博客和CMS主题的首选！
+Version: 1.0
+Author: ARMOE·小滔
+Author URI: https://www.tefws.cn
+Tags: 简约,二次元,双栏,魔幻,博客,CMS
+*/
+*{
+	margin:0;
+	padding: 0;
+}
+.lisber-toolbar{
+	position: fixed;
+	top:0;
+    z-index:999;
+}
+.lisber-body{
+	padding-top:70px;
+	margin:0;
+}
+.lisber-links{
+	padding:10px;
+}
+.lisber-single-passage{
+	padding:10px;
+	color:#DA8E8E;
+	word-wrap:break-word;
+	font-size:17px;
+	line-height:25px;
+	letter-spacing:1px
+}
+.lisber-single-headr{
+	color:#FFFFFF;
+}
+.lisber-single-headr a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.lisber-single-passage h2{
+	background:#BC5D67;
+	padding:10px;
+	margin:5px 0;
+	color:#FFFFFF;
+	font-size:18px;
+	letter-spacing:5px;
+	font-style:normal;
+}
+.lisber-single-passage img{
+	width:auto;
+	height:auto;
+	max-width:100%;
+	max-height:100%;
+	margin:5px 0;
+	border-radius:8px;
+	box-shadow:3px 4px 4px #6C6C6C;
+}
+pre{
+	background:#000000;
+	border:1px dashed;
+	padding:10px;
+	border-radius:8px;
+	margin:5px 0;
+	word-break: normal; 
+	word-break:break-all;
+	white-space: pre-wrap; /*css-3*/ 
+	white-space: -moz-pre-wrap; /*Mozilla,since1999*/ 
+	white-space: -pre-wrap; /*Opera4-6*/ 
+	white-space: -o-pre-wrap; /*Opera7*/ 
+	word-wrap: break-word; /*InternetExplorer5.5+*/ 
+} 
+blockquote{
+	color:#AD3D43;
+	margin:5px 0;
+	padding-left:10px;
+    border-left:6px solid;
+	font-size:16px;
+}
+.lisber-single-passage blockquote p{
+	padding:3px;
+	color:#AD3D43;
+}
+.lisber-single-passage strong{
+	color:#C04F5A;
+}
+.lisber-single-passage b{
+	color:#C04F5A;
+}
+.lisber-single-passage i{
+	color:#C04F5A;
+}
+.lisber-single-passage a{
+	color:#F081B3;
+	text-decoration:none;
+}
+.lisber-single-passage ul{
+	padding:5px 18px;
+}
+.lisber-single-passage ul li{
+	list-style-type:square;
+	color:#AE6269;
+}
+.lisber-single-passage ol{
+	padding:5px 18px;
+}
+.lisber-single-passage ol li{
+	color:#AE6269;
+	padding-left:3px;
+}
+ @media screen and (min-width:1366px){
+	
+}
+@media screen and (max-width:1366px){
+	.lide{
+		display:none;
+	}
+}
